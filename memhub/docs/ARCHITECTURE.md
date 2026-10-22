@@ -55,7 +55,7 @@ as a client of Core and does not access the database or host files directly.
 | `scripts` | Development, privacy, test, packaging, and release gates; not runtime product code. |
 
 Python dependencies and Core tests are managed by `uv`; the TypeScript
-workspace is managed by `pnpm`. The repository requires Node.js 24 and Python
+workspace is managed by `pnpm`. The repository requires Node.js 24.22.1 and Python
 3.12. See the root `package.json`, `apps/core/pyproject.toml`,
 [`../README.md`](../README.md), and [`../CONTRIBUTING.md`](../CONTRIBUTING.md)
 for executable commands and contribution rules.

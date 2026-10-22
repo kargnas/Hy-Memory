@@ -34,7 +34,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
-          node-version: 24
+          node-version: "24.22.1"
       - name: Refuse a tag that is not public-release ready
         env:
           MEMHUB_PUBLIC_NPM_PACKAGE: memhub-cli
@@ -93,7 +93,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
-          node-version: 24
+          node-version: "24.22.1"
       - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff
         with:
           python-version: "3.12"
@@ -159,7 +159,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
-          node-version: 24
+          node-version: "24.22.1"
       - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff
         with:
           python-version: "3.12"
@@ -330,7 +330,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
-          node-version: 24
+          node-version: "24.22.1"
       - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff
         with:
           python-version: "3.12"
@@ -442,7 +442,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
-          node-version: 24
+          node-version: "24.22.1"
       - name: Download and verify the complete published Runtime
         shell: bash
         env:
@@ -483,7 +483,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
-          node-version: 24
+          node-version: "24.22.1"
           registry-url: ${{ vars.NPM_REGISTRY_URL || 'https://registry.npmjs.org/' }}
       - run: corepack enable
       - run: pnpm install --frozen-lockfile
@@ -528,7 +528,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
-          node-version: 24
+          node-version: "24.22.1"
           registry-url: ${{ vars.NPM_REGISTRY_URL || 'https://registry.npmjs.org/' }}
       - name: Reinstall the published package from the registry
         shell: bash

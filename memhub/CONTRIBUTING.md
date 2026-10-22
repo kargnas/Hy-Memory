@@ -4,7 +4,7 @@
 
 ## 开发环境
 
-- Node.js 24
+- Node.js 24.22.1
 - pnpm 11
 - Python 3.12
 - uv

@@ -59,7 +59,7 @@ Linux 制品由 GitHub Actions 在原生架构 runner 上构建并完成生命�
 
 ## 开发环境
 
-要求 Node.js 24、pnpm 11、Python 3.12 和 uv。
+要求 Node.js 24.22.1、pnpm 11、Python 3.12 和 uv。
 
 ```bash
 pnpm install
