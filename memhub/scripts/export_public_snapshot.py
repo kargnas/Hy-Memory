@@ -14,6 +14,7 @@ ROOT_FILES = frozenset(
         ".gitattributes",
         ".gitignore",
         ".node-version",
+        ".nvmrc",
         ".npmrc",
         ".python-version",
         "CODE_OF_CONDUCT.md",
